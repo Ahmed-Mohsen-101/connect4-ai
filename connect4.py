@@ -185,7 +185,7 @@ for r in range(ROW_COUNT-1, -1, -1):
 
 if st.session_state.waiting_for_ai and not st.session_state.game_over:
     time.sleep(.5)
-    col, _ = minimax(board, 6, -math.inf, math.inf, True)
+    col, _ = minimax(board, 5, -math.inf, math.inf, True)
     if is_valid_location(board, col):
         row = get_next_open_row(board, col)
         drop_piece(board, row, col, AI)
