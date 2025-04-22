@@ -2,7 +2,7 @@
 
 A Python implementation of the classic Connect 4 game featuring an AI opponent using the Minimax algorithm with alpha-beta pruning.
 
-![Connect 4 Game Screenshot](https://imgur.com/a/xujXEd3)
+![Connect 4 Game Screenshot](https://i.postimg.cc/j5kXSF7B/Screenshot-2025-04-22-191433.png)
 
 ## Features
 
